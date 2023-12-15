@@ -30,6 +30,10 @@
     font-family: sans-serif;
   }
 
+  a{
+    color: #ffff00;
+  }
+
   .boton {
     width: 70px;
     transition: ease 1s;  

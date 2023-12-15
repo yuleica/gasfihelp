@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link href="estilos-formulario.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+          <img 
+              src="img/logogasfihelp.jpg" 
+              alt="Logo Gasfihelp">
+      </div>
+      <div><h1>Somos Gasfihelp</h1></div>
+      <div class="logo">
+        <img 
+            src="img/autorizado.SEC_.png" 
+            alt="Logo SEC">
+      </div>
+      
+    </header>
+    <div class="contenedor-formulario">
+        
+        <form action="https://formsubmit.co/gasfihelp@gmail.com" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="nombre" required />
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="correo" required />
+        
+            <label for="subject">Asunto</label>
+            <input type="text"  id="subject"  name="asunto" required/> 
+
+            <label for="subject">Mensaje</label>
+            <textarea id="mensaje"  name="mensaje" cols="30"  rows="5"></textarea required> 
+
+            <input type="button" value="Enviar" class="boton-enviar" />
+        </form>
+
+
+
+    </div>

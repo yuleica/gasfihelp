@@ -5,9 +5,6 @@ $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
 $mensaje = $_POST['mensaje'];
 
-echo "nombre";
-echo $nombre;
-
 // Datos para el correo
 $destinatario = "yuleicasojo2005@gmail.com";
 $asunto = "Contacto desde nuestra web";
